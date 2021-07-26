@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int n;
+    long long n;
     cin >> n;
-    int sum = (n*(n+1))/2;
+    long long sum = (n*(n+1))/2;
     cout << sum << endl;
     return 0;
 }
